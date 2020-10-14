@@ -71,7 +71,7 @@
 (set-display-table-slot standard-display-table 'truncation
                         (make-glyph-code ?… 'fallback))
 (set-display-table-slot standard-display-table 'wrap
-                        (make-glyph-code ?↩ 'fallback))
+                        (make-glyph-code ?¬ 'fallback))
 (set-display-table-slot standard-display-table 'selective-display
                         (string-to-vector " …"))
 
